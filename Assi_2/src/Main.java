@@ -11,7 +11,7 @@
 
 import java.util.Scanner;
 
-public class Assi2 {
+public class Main{
 
     public static void main(String[] abc){
         Scanner input =new Scanner(System.in);
