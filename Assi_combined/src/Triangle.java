@@ -17,10 +17,11 @@ public class Triangle {
     }
     public void perimeters(){
         int p =a+b+c;
-        System.out.println("The parameter is:"+p);
+        System.out.println("The perimeter is:"+p);
     }
 
 
 
 
 }
+
