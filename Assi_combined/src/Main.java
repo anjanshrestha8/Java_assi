@@ -17,23 +17,24 @@ public class Main {
         int input = num.nextInt();
         switch(input){
             case 1:{
-                Triangle obj =new Triangle();
-                Triangle obj1 =new Triangle(5,3,4);
-                obj.area();
+//                Triangle obj =new Triangle();
+                Triangle obj1 =new Triangle(5,6,4);
+//                obj.area();
                 obj1.area();
                 break;
 
             }
             case 2:{
-                Triangle obj2 =new Triangle();
+//                Triangle obj2 =new Triangle();
                 Triangle obj3 =new Triangle(5,3,4);
-                obj2.perimeters();
+//                obj2.perimeters();
                 obj3.perimeters();
                 break;
             }
             case 3:{
                 Student obj4 =new Student();
                 obj4.update("John",1);
+                break;
             }
             case 4:{
                 Average obj5 =new Average();

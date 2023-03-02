@@ -11,13 +11,14 @@ public class Triangle {
         c=f;
     }
     public void area() {
-        int s = (a + b + c) / 2;
-        s = (s * (s - a) * (s - b) * (s - c));
-        System.out.println("The area of the triangle is:" + s);
+       double s = (double) (a + b + c) / 2;
+        System.out.println("The value of s is :"+s);
+        s = (double)(Math.sqrt(s * (s - a) * (s - b) * (s - c)));
+        System.out.println("The area of the triangle is : " +s);
     }
     public void perimeters(){
         int p =a+b+c;
-        System.out.println("The perimeter is:"+p);
+        System.out.println("The perimeter is: "+p);
     }
 
 
